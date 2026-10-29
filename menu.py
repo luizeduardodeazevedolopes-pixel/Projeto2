@@ -1,5 +1,7 @@
-oficina = OficinaMecanica()
+from oficina import OficinaMecanica
+from oficina.modelos import Cliente, Veiculo, LoteEstoque, ProdutoEstoque
 
+oficina = OficinaMecanica()
 
 # ---------------------------------------------------------------- funções auxiliares
 def ler_numero(texto):
