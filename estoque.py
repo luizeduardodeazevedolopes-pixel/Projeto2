@@ -1,3 +1,5 @@
+from ..estruturas import FilaEncadeada
+
 class LoteEstoque:
     def __init__(self, quantidade, preco_compra, data_validade=None):
         self.quantidade = quantidade
